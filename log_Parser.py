@@ -7,7 +7,7 @@ logging.basicConfig(
             format="%(asctime)s-%(levelname)s-%(message)s"
 )
 parser = argparse.ArgumentParser()
-parser.add_argument("--keyword",choices=["SUCCESS","ERROR" ,"FAILED", "CRITICAL"])
+parser.add_argument("--keyword",choices=["ERROR" ,"FAILED", "CRITICAL"])
 args = parser.parse_args()
 
 try:
