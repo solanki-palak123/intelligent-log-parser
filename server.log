@@ -1,0 +1,5 @@
+INFO : Server started successfully
+ERROR : You have entered wrong password.
+CRITICAL : Disk space almost full
+FAILED: Database connection is failed
+
